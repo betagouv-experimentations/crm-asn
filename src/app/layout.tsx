@@ -4,8 +4,8 @@ import { DsfrProvider, StartDsfrOnHydration } from "@/lib/dsfr/DsfrProvider";
 import { getHtmlAttributes } from "@/lib/dsfr/getHtmlAttributes";
 
 export const metadata: Metadata = {
-  title: "Prototype beta.gouv",
-  description: "Prototype de service public numérique français",
+  title: "Suivi des accompagnements ASN",
+  description: "Outil de suivi des accompagnements du département ASN de la DINUM",
 };
 
 export default function RootLayout({
@@ -39,10 +39,10 @@ export default function RootLayout({
                     </div>
                     <div className="fr-header__service">
                       <Link href="/" title="Accueil">
-                        <p className="fr-header__service-title">Prototype beta.gouv</p>
+                        <p className="fr-header__service-title">Suivi ASN</p>
                       </Link>
                       <p className="fr-header__service-tagline">
-                        Service public numérique en construction
+                        Accompagnement des Services Numériques
                       </p>
                     </div>
                   </div>
