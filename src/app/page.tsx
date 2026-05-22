@@ -80,6 +80,7 @@ export default async function HomePage(): Promise<React.ReactElement> {
       lastName: contacts.lastName,
       administration: contacts.administration,
       role: contacts.role,
+      createdAt: contacts.createdAt,
     })
     .from(contacts)
     .orderBy(contacts.lastName, contacts.firstName);
@@ -194,6 +195,7 @@ export default async function HomePage(): Promise<React.ReactElement> {
                   <th scope="col">Nom</th>
                   <th scope="col">Administration</th>
                   <th scope="col">Rôle</th>
+                  <th scope="col">Créé le</th>
                 </tr>
               </thead>
               <tbody>
@@ -206,6 +208,7 @@ export default async function HomePage(): Promise<React.ReactElement> {
                     </td>
                     <td>{c.administration}</td>
                     <td>{c.role ?? ""}</td>
+                    <td>{formatDateFr(c.createdAt.toISOString().slice(0, 10))}</td>
                   </tr>
                 ))}
               </tbody>

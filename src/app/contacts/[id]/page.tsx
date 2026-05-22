@@ -110,6 +110,9 @@ export default async function ContactPage({ params }: PageProps): Promise<React.
             {contact.administration}
             {contact.role ? ` — ${contact.role}` : ""}
           </p>
+          <p className={fr.cx("fr-text--xs", "fr-mb-1w")}>
+            Contact créé le {formatDateFr(contact.createdAt)}
+          </p>
           {contact.context && (
             <p className={fr.cx("fr-text--sm", "fr-mb-2w")}>{contact.context}</p>
           )}
