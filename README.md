@@ -1,11 +1,12 @@
-# test-cadrer-20260521
+# crm-asn
 
+> Outil de suivi des accompagnements du département ASN de la DINUM.
 > Prototype beta.gouv.fr propulsé par Claude Code et le DSFR.
 
 
 ## 🚀 Démarrer
 
-Tu as ton repo : **betagouv-experimentations/test-cadrer-20260521**. Voici la suite, en 5 minutes.
+Tu as ton repo : **betagouv-experimentations/crm-asn**. Voici la suite, en 5 minutes.
 
 ### 1. Installer agent-vm
 
@@ -16,8 +17,8 @@ agent-vm est l'environnement isolé dans lequel Claude Code tourne. Suis les ins
 Dans un terminal :
 
 ```bash
-git clone https://github.com/betagouv-experimentations/test-cadrer-20260521.git
-cd test-cadrer-20260521
+git clone https://github.com/betagouv-experimentations/crm-asn.git
+cd crm-asn
 agent-vm --memory 16 --disk 40 --cpus 6 claude
 ```
 
