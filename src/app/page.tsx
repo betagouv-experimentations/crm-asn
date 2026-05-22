@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { desc, eq, and, lte, gte, sql } from "drizzle-orm";
+
+export const dynamic = "force-dynamic";
 import { fr } from "@codegouvfr/react-dsfr";
 import { Badge } from "@codegouvfr/react-dsfr/Badge";
 import { Button } from "@codegouvfr/react-dsfr/Button";
