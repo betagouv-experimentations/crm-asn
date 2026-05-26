@@ -88,7 +88,7 @@ Quand ton proto te plaît :
 
 Claude lance les tests, commit, push, et suit le déploiement automatique. Ton service sera en ligne sur :
 
-**https://test-cadrer-20260521.coolify.incubateur.net**
+**https://crm-asn.coolify.incubateur.net/**
 
 en environ 2 à 3 minutes. Claude te tient au courant pendant le build et te diagnostique tout échec éventuel.
 
